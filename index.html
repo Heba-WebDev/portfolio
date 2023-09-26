@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <title>Heba</title>
+  </head>
+  <body class="container ff-mono">
+    <header class="header flex">
+      <a href="/" class="logo text-white"><span class="text-accent">&lt;</span>
+        <span>Heba </span><span class="text-accent">/ &gt;</span></a>
+
+        <nav class="nav">
+          <ul class="flex nav__ul text-white">
+            <li class="nav__li"><a href="#about" class="fs-300 text-white">About</a></li>
+            <li class="nav__li"><a href="#skills" class="fs-300 text-white">Skills</a></li>
+            <li class="nav__li"><a href="#projects" class="fs-300 text-white">Projects</a></li>
+            <li class="nav__li"><a href="#contact" class="fs-300 text-white">Contact</a></li>
+          </ul>
+          <!-- <button type="button" class="mobile__nav">
+            <div class="hamburger bar1" ></div>
+            <div class="hamburger bar2" ></div>
+            <div class="hamburger bar3" ></div>
+          </button> -->
+        </nav>
+    </header>
+
+    <section class="hero grid">
+        <div class="hero__inner grid">
+          <span class="text-accent fs-200 uppercase">Hi, my name is</span>
+        <h1 class="hero__title fs-800">Heba Omar.</h1>
+        <h1 class="hero__subtitle fs-700">I build web applications</h1>
+        <p class="hero__p fs-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nesciunt!
+        Tempora pariatur provident rerum aliquam hic suscipit aut quam est at sit, aliquid
+        eveniet cupiditate, odit officia, soluta porro illum!</p>
+        <a class="hero__btn text-white flex" href="#contact">Hire me</a>
+        </div>
+    </section>
+
+    <section class="about grid" id="about">
+      <div class="about__inner">
+          <section class="about__info flex">
+              <h2 class="about__title text-accent">About</h2>
+              <p class="about__p fs-300">I'm a passionate software developer, I care about both the business and end user. While I'm not coding, I love to learn
+              foreign languages, I speak 5 different languages, and I play video games. I'm currently enrolled in ALX Software
+              Engineering program and doing an internship by HNG.</p>
+              <div>
+                <img src="/me.jpg" alt="" class="about__me"/>
+              </div>
+                <div class="about__icons flex">
+                <a href="#"><i class="devicon-google-plain icon"></i></a>
+                <a href="#"><i class="devicon-github-original icon"></i></a>
+                <a href="#"><i class="devicon-twitter-original icon"></i></a>
+              </div>
+          </section>
+
+      </div>
+
+    </section>
+
+
+  <!-- skills section -->
+    <section class="skills flex" id="skills">
+      <!-- devicon.dev -->
+     <h2 class="fs-500 text-accent skills__title uppercase">Skills</h2>
+     <div class="skills__icons flex">
+      <div class="skill flex">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="skills__icon"/>
+        <h3 class="fs-300">HTML</h3>
+       </div>
+       <div class="skill flex">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="skills__icon"/>
+        <h3 class="fs-300">CSS</h3>
+       </div>
+       <div class="skill flex">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" class="skills__icon"/>
+        <h3 class="fs-300">Tailwind</h3>
+       </div>
+       <div class="skill flex">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" class="skills__icon"/>
+        <h3 class="fs-300">JavaScript</h3>
+       </div>
+       <div class="skill flex">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="skills__icon" />
+        <h3 class="fs-300">React</h3>
+       </div>
+       <div class="skill flex">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="skills__icon"/>
+        <h3 class="fs-300">Git</h3>
+       </div>
+     </div>
+    </section>
+    <!-- projects section -->
+    <section class="projects__wrapper grid" id="projects">
+      <h2 class="projects__title uppercase text-light">Projects</h2>
+      <div class="projects grid">
+        <div class="project flex">
+          <img src="/qrnow.png" alt="" class="project__img" />
+          <h2 class="project__title text-accent">QRNow</h2>
+          <p class="project__p">A an application that generates QR codes</p>
+          <div class="project__stack flex">
+            <span class="stack bg-white text-accent">HTML</span>
+            <span class="stack bg-white text-accent">CSS</span>
+            <span class="stack bg-white text-accent">JAVASCRIPT</span>
+          </div>
+          <div class="project__links flex">
+            <div class="project__demo">
+              <span>🔗</span>
+              <a href="https://heba-webdev.github.io/QRNow/" target="_blank">Live Demo</a>
+            </div>
+            <div class="project__code flex">
+              <img src="/github.svg" alt="view code on github" class="project__github" />
+              <a href="https://github.com/Heba-WebDev/QRNow" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project flex">
+          <img src="/minimum-living.png" alt="An application to show rental real estates in UAE" class="project__img" />
+          <h2 class="project__title text-accent">Minimum Living</h2>
+          <p class="project__p">An application to show rental real estates in UAE</p>
+          <div class="project__stack flex">
+            <span class="stack bg-white text-accent">REACT</span>
+            <span class="stack bg-white text-accent">TAILWIND</span>
+          </div>
+          <div class="project__links flex">
+            <div class="project__demo">
+              <span>🔗</span>
+              <a href="https://incandescent-profiterole-345c12.netlify.app" target="_blank">Live Demo</a>
+            </div>
+            <div class="project__code flex">
+              <img src="/github.svg" alt="view code on github" class="project__github" />
+              <a href="https://github.com/Heba-WebDev/Minimum-Living" target="_blank">View Code</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="project flex">
+          <img src="/mange.png" alt="A software management landing page" class="project__img" />
+
+          <h2 class="project__title text-accent">Manage</h2>
+          <p class="project__p">A software management landing page</p>
+          <div class="project__stack flex">
+            <span class="stack bg-white text-accent">HTML</span>
+            <span class="stack bg-white text-accent">CSS</span>
+            <span class="stack bg-white text-accent">JAVASCRIPT</span>
+          </div>
+          <div class="project__links flex">
+            <div class="project__demo">
+              <span>🔗</span>
+              <a href="https://dancing-monstera-5b48ef.netlify.app" target="_blank">Live Demo</a>
+            </div>
+            <div class="project__code flex">
+              <img src="/github.svg" alt="view code on github" class="project__github" />
+              <a href="https://github.com/Heba-WebDev/Manage-Landing-Page" target="_blank">View Code</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="project flex">
+          <img src="/easybank-2.png" alt="" class="project__img2" />
+          <h2 class="project__title text-accent">Easybank</h2>
+          <p class="project__p">A bank landing page</p>
+          <div class="project__stack flex">
+            <span class="stack bg-white text-accent">HTML</span>
+            <span class="stack bg-white text-accent">TAILWIND</span>
+            <span class="stack bg-white text-accent">JAVASCRIPT</span>
+          </div>
+          <div class="project__links flex">
+            <div class="project__demo">
+              <span>🔗</span>
+              <a href="https://heba-webdev.github.io/Easybank-Landing-Page/index.html" target="_blank">Live Demo</a>
+            </div>
+            <div class="project__code flex">
+              <img src="/github.svg" alt="view code on github" class="project__github" />
+              <a href="https://github.com/Heba-WebDev/Easybank-Landing-Page" target="_blank">View Code</a>
+            </div>
+          </div>
+        
+        </div>
+
+      </div>
+    </section>
+
+      <!-- Contact me section -->
+
+      <section class="contact" id="contact">
+        <h2 class="contact__title fs-500 text-accent">Contact me</h2>
+        <form class="grid">
+          <label for="name"></label>
+          <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Please type your name"
+          class="contact__name text-dark"
+          >
+
+          <label for="subject"></label>
+          <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write here .."
+          style="height:200px"
+          class="contact__subject text-dark"
+          ></textarea>
+          <input type="submit" value="Submit" class="contact__submit text-white bg-dark">
+        </form>
+      </section>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
